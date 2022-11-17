@@ -78,18 +78,17 @@
 
         <section id="apps">
             <script type="text/handlebars-template" id="apps-template">
-            <h3>Applications</h3>
+            <h3>Apps</h3>
             <div id="apps_loop">
                 {{#apps}}
-                    <div class="apps_item">
+                    <a class="apps_item" href="http://{{url}}" {{#if target}}target="{{target}}"{{/if}}>
                         <div class="apps_icon">
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="http://{{url}}" {{#if target}}target="{{target}}"{{/if}} >{{name}}</a>
-                            <span id="app-address">{{url}}</span>
+                            {{name}}
                         </div>
-                    </div>
+                    </a>
                 {{/apps}}
             </div>
             </script>
@@ -97,7 +96,7 @@
 
          <section id="links">
             <script type="text/handlebars-template" id="links-template">
-            <h3>Bookmarks</h3>
+            <!-- <h3>Bookmarks</h3>
             <div id="links_loop">
                 {{#bookmarks}}
                     <div id="links_item">
@@ -107,7 +106,7 @@
                         {{/links}}
                     </div>
                 {{/bookmarks}}
-            </div>
+            </div> -->
             </script>
         </section>
     </main>
