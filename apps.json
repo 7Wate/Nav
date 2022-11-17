@@ -1,7 +1,7 @@
 {
     "apps" : [
         {"name":"博客","url":"blog.7wate.com","icon":"post"},
-        {"name":"维基","url":"wiki.7wate.org","icon":"chart-line"},
+        {"name":"维基","url":"wiki.7wate.com","icon":"chart-line"},
         {"name":"网盘","url":"file.7wate.org","icon":"file-cabinet"},
         {"name":"Github","url":"github.1qi777.com","icon":"github"},
         {"name":"谷歌学术","url":"so.hiqq.com.cn","icon":"text-box-search-outline"},
