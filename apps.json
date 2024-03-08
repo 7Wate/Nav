@@ -2,11 +2,11 @@
     "apps" : [
         {"name":"博客","url":"blog.7wate.com","icon":"post"},
         {"name":"维基","url":"wiki.7wate.com","icon":"chart-line"},
-        {"name":"网盘","url":"file.7wate.org","icon":"file-cabinet"},
-        {"name":"Github","url":"github.com","icon":"github"},
         {"name":"学术搜索","url":"so.hiqq.com.cn","icon":"text-box-search-outline"},
         {"name":"维基百科","url":"zh.wikipedia.org","icon":"wikipedia"},
+        {"name":"Github","url":"github.com","icon":"github"},
         {"name":"在线 IDE","url":"lightly.teamcode.com/login","icon":"microsoft-visual-studio-code"},
-        {"name":"开发手册","url":"jaywcjlove.github.io/reference","icon":"dev-to"}
+        {"name":"开发手册","url":"reference.7wate.com","icon":"dev-to"}
+        {"name":"Linux命令","url":"linux.7wate.com","icon":"dev-to"}
     ]
 }
